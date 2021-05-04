@@ -36,7 +36,7 @@ const StopWatch = () => {
             <div className="body">
                 <div className="number">
                     <p>
-                        { ("0" + Math.floor((time / 1000) % 60)).slice(-1) }<span>s </span>
+                        { ("0" + Math.floor((time / 1000) % 60)).slice(-2) }<span>s </span>
                         <span>{ ("0" + ((time / 10) % 100)).slice(-2) }</span>
                     </p>
                     
